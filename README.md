@@ -5,4 +5,4 @@ Official GitHub for CanHax Pub Development.
 > You will **NOT** find the official Pub Code here! ONLY SNIPPETS!
 
 # Shortcuts
-Snippets [<kbd> <br> Title <br> </kbd>][https://github.com/np-stacks/CanHax-Pub/tree/main/Snippets]
+[<kbd> <br> **Snippets** <br> </kbd>](https://github.com/np-stacks/CanHax-Pub/tree/main/Snippets)
