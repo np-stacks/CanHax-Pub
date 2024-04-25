@@ -1,0 +1,17 @@
+const roomName = "🔴 ⚪ [𝐂𝐀𝐍𝐇𝐀𝐗] Futsal 3v3 ⚪ 🔴";
+const botName = "🤖 | 𝗖𝗮𝗻𝗛𝗮𝘅 𝗕𝗼𝘁";
+const maxPlayers = 22;
+const reservedSpots = 4; // Non HaxBall Immediate Feature, remove if you'd like
+const roomPublic = true;
+const token = "thr1.AAAAAGYTbKfOkG4XRaCDRw.Fb3jECyEB3k"; // Get Headless token to bypass Headless Captcha. Go to https://www.haxball.com/headlesstoken. Token will expire after 2 minutes.
+const geo = [{
+    "code": "CA",
+    "lat": 45.424721,
+    "lon": -75.695
+}];
+
+const room = HBInit({
+    roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName, geo: geo[0]
+});
+
+// Rest of you're code
